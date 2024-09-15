@@ -20,9 +20,9 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'], // Use the TypeScript plugin
   rules: {
-    'quotes': ['error', 'single'], // Enforce single quotes
-    'semi': ['error', 'never'], // Disallow semicolons
+    quotes: ['error', 'single'], // Enforce single quotes
+    semi: ['error', 'always'], // Disallow semicolons
     '@typescript-eslint/no-empty-function': 'off', // Turn off the rule for empty functions
     // outras regras personalizadas podem ser adicionadas aqui
   },
-}
+};
